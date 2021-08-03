@@ -19,12 +19,10 @@ public class SaddlePoint {
                     flag = false;
                 }
             }
-
             if (flag) {
                 System.out.println(matrix[i][minRowElementIndex]);
                 return;
             }
-
         }
         System.out.println("NO Saddle point found.");
     }
